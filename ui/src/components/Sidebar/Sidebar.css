@@ -1,0 +1,83 @@
+.sidebar{
+    background: #fff;
+    width: 15%;
+    height: calc(100vh - 60px);
+    position: fixed;
+    top: 60px;
+    padding-left: 1%;
+    padding-top: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    border-right: 1px solid #e0e0e0;
+}
+
+.small-sidebar{
+    width: 5%;
+}
+
+.small-sidebar p{
+    display: none;
+}
+
+.small-sidebar h3{
+    display: none;
+}
+
+.sidebar::-webkit-scrollbar{
+    width: 0;
+}
+
+.sidebar:hover::-webkit-scrollbar{
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb{
+    background: transparent;
+    border-radius: 4px;
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb{
+    background: #999;
+}
+
+.shortcut-links img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.side-link{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.separator{
+    border: none;
+    border-top: 1px solid #c0c0c0;
+    margin: 15px 0;
+    width: 85%;
+}
+
+.subscribed-links h3{
+    font-size: 17px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+
+.subscribed-links img{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.side-link.active img{
+    padding-bottom: 2px;
+    border-bottom: 3px solid red;
+}

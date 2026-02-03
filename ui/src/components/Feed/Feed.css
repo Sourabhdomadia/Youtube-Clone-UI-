@@ -1,0 +1,44 @@
+.Feed{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+}
+
+.card{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h2{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0;
+    color: #000;
+    text-decoration: none;
+}
+
+.card h3{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 6px 0;
+    color: #000;
+    text-decoration: none;
+}
+
+.card p{
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+}

@@ -1,0 +1,55 @@
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5% 1.5%;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.menu{
+    height: 20px;
+    margin: 3% 0;
+    padding-right: 30px;
+}
+
+.logo{
+    height: 30px;
+}
+
+.navbar-right img{
+    height: 40px;
+    padding-left: 5px;
+}
+
+.user-icon{
+    border-radius: 50%;
+}
+
+.navbar-center{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #e0e0e0;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.search-bar{
+    width: 450px;
+    height: 30px;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.navbar-right img{
+    padding-right: 7px;
+}
+
+
