@@ -1,2 +1,3 @@
 # Youtube-Clone-UI-
 YouTube UI Clone built with React, replicating the core layout and user experience of YouTube. The application fetches video data using the YouTube Data API (Google APIs), including videos, channel data, and dynamically renders content to closely mirror the original platform.
+React’s useEffect hook is used to handle API calls and update the UI when dependencies change, while useCallback is implemented to optimize performance by memoizing event handlers and API request functions, preventing unnecessary re-renders. This approach ensures efficient data fetching and a smooth, responsive user experience.
